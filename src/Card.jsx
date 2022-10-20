@@ -1,13 +1,17 @@
-import React from "react";
+import React, { useRef } from "react";
 import { NavLink } from "react-router-dom";
 import { Button } from "react-bootstrap";
 
-function Card({ title, imgsrc, text }) {
+function Card({ title, imgsrc, videosrc, text, videoRef}) {
+ 
+
   return (
     <>
       <div className="col-md-4 col-10 mx-auto">
         <div className="card">
           <img src={imgsrc} className="card-img-top" alt="..." />
+          <video src={videosrc} width="520" height="240"  ref={videoRef} />
+          
           <div className="card-body">
             <h5 className="card-title">{title}</h5>
             <p className="card-text">

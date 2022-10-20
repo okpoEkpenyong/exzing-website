@@ -35,6 +35,15 @@ function Navbar() {
                     <NavLink
                       activeClassName="menu_active"
                       className="nav-link"
+                      to="/product"
+                    >
+                      Our Products
+                    </NavLink>
+                  </li>
+                  <li className="nav-item">
+                    <NavLink
+                      activeClassName="menu_active"
+                      className="nav-link"
                       to="/service"
                     >
                       Our Services

@@ -30,22 +30,28 @@ function Service() {
               <Card
                 title="Mobile App Development"
                 imgsrc={img1}
-                text={'We build apps targeting both android and ios environments'}
+                text={
+                  "We build apps targeting both android and ios environments"
+                }
               />
               <Card
                 title="Web Development"
                 imgsrc={img2}
-                text={'Our Web development covers both frontend and backend'}
+                text={"Our Web development covers both frontend and backend"}
               />
               <Card
                 title="Database Management"
                 imgsrc={img3}
-                text={'We understand the role of database management and we do it effectively'}
+                text={
+                  "We understand the role of database management and we do it effectively"
+                }
               />
               <Card
                 title="Business Analytics"
                 imgsrc={img4}
-                text={' In EXzing we address your business needs and recommend solutions.'}
+                text={
+                  " In EXzing we address your business needs and recommend solutions."
+                }
               />
               <Card
                 title="Digital Marketing"
@@ -57,8 +63,10 @@ function Service() {
               <Card
                 title="Data Analytics"
                 imgsrc={img6}
-                text={'Working closely with your datasets, we uncover \
-                trends and insights that gives you an edge in organization decisions'}
+                text={
+                  "Working closely with your datasets, we uncover \
+                trends and insights that gives you an edge in organization decisions"
+                }
               />
               <Card
                 title="Training and Mentoring"
