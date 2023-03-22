@@ -7,7 +7,7 @@ import About from "./About";
 import Contact, { ContactForm } from "./Contact";
 import Service from "./Service";
 import Product from "./Product";
-import { CollapsibleExample } from "./_Navbar";
+import { CollapsibleNav } from "./_Navbar";
 import Partners from "./Partner";
 import "./App.css";
 import { MessageProvider } from "./context/MessageProvider";
@@ -16,7 +16,7 @@ function App() {
   return (
     <>
       <MessageProvider>
-        <CollapsibleExample />
+        <CollapsibleNav />
         <div className="navbar-custom-3">
           <Switch>
             <Route exact path="/" component={Home} />

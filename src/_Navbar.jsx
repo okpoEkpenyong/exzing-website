@@ -9,7 +9,7 @@ import "./App.css";
 import { Button, Form, FormControl } from "react-bootstrap";
 import { Link, animateScroll as scroll } from "react-scroll";
 
-export function CollapsibleExample() {
+export function CollapsibleNav() {
   let url = "";
   return (
     <Navbar
@@ -63,96 +63,6 @@ export function CollapsibleExample() {
         </Navbar.Collapse>
       </Container>
     </Navbar>
-  );
-}
-
-export function VesoftNavBar() {
-  const scrollToTop = () => {
-    scroll.scrollToTop();
-  };
-
-  return (
-    <>
-      <Navbar bg="primary" variant="dark" expand="xl" fixed="top">
-        <a>
-          {" "}
-          <Navbar.Text className="text-vsoft">
-            <img
-              src={logo}
-              className="nav-logo "
-              alt="Logo"
-              onClick={scrollToTop}
-            />{" "}
-            VESOFT LTD
-          </Navbar.Text>{" "}
-        </a>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse className="justify-content-end">
-          <>
-            <Nav className="mr-auto">
-              <NavLink
-                className="nav-item "
-                href="/home"
-                activeClass="active"
-                to="section1"
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={500}
-              >
-                HOME
-              </NavLink>
-              <NavLink
-                className="nav-item "
-                href="/services"
-                activeClass="active"
-                to="section2"
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={500}
-              >
-                SERVICES
-              </NavLink>
-              <NavLink
-                className="nav-item "
-                href="/about"
-                activeClass="active"
-                to="section3"
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={500}
-              >
-                ABOUT
-              </NavLink>
-              <NavLink
-                className="nav-item "
-                href="/contact"
-                activeClass="active"
-                to="section4"
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={500}
-              >
-                CONTACT
-              </NavLink>
-            </Nav>
-            <Form inline>
-              <FormControl
-                type="text"
-                placeholder="Search"
-                className="mr-sm-2"
-              />
-              <Button variant="outline-light">Search</Button>
-            </Form>
-          </>
-        </Navbar.Collapse>
-      </Navbar>
-      <br />
-      <br />
-    </>
   );
 }
 
