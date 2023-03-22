@@ -5,12 +5,15 @@ import web from "../src/images/backg2.jpg";
 function Home() {
   return (
     <>
-      <Common
-        name="Feel the gust of "
-        imgsrc={web}
-        visit="/service"
-        btname="Find out more"
-      />
+      <div style={{ paddingTop: "10%", paddingBottom: "10%" }}>
+        <Common
+          name="Feel the gust of "
+          imgsrc={web}
+          visit="/service"
+          btname="Find out more"
+          section="home"
+        />
+      </div>
     </>
   );
 }

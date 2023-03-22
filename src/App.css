@@ -15,13 +15,39 @@
   position: relative;
 }
 
+.appbg {
+  background-color: #000000;
+}
+
 .nav-logo {
   height: 50px;
   width: 16x0px;
+  /* padding: 0rem -9rem; */
+}
+
+.navbar-custom {
+  background-color: goldenrod;
+}
+
+.navbar-custom-2 {
+  background-image: linear-gradient(90deg, #021c2b 50%, #021c2b, #021c2b,goldenrod );
+}  
+.navbar-custom-3 {
+  background-image: linear-gradient(90deg, #021c2b 0%, #021c2b, #021c2b, #021c2b );
+  /* background-color: #021c2b; */
+}  
+.contact-bg-image {
+   background-image: url("images/contact-bg.png");
+   background-repeat: no-repeat;
+   background-size: auto;
+   padding-top: 20
+   /* width: 250px; */
+   /* mslight from "../src/images/ms-light.png"; */
 }
 
 .nav-logo:hover {
   cursor: pointer;
+  /* background-color: green; */
 }
 
 .nav .nav-content {
@@ -164,10 +190,12 @@ text-shadow: 2px 2px black;
   text-shadow: 1px 1px black;
   padding: 0px;
 }
-.text-vsoft {
+
+.text-vsoft:hover {
   font-family: 'Lucida Handwriting', cursive;
-  color:#10e621!important;
+  color:goldenrod!important;
   text-shadow: 1px 1px black;
+
   
 }
 /************************************************/
@@ -237,6 +265,7 @@ text-shadow: 2px 2px black;
   position: absolute;
   top: 20;
   left: 0;
+  /* height: 50%; */
 }
 
 .video-responsive {
