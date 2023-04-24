@@ -4,13 +4,15 @@ import "../node_modules/bootstrap/dist/js/bootstrap.bundle";
 import { Switch, Route, Redirect } from "react-router-dom";
 import Home from "./Home";
 import About from "./About";
-import Contact, { ContactForm } from "./Contact";
-import Service from "./Service";
-import Product from "./Product";
+
 import { CollapsibleNav } from "./_Navbar";
-import Partners from "./Partner";
+
 import "./App.css";
 import { MessageProvider } from "./context/MessageProvider";
+import Partners from "./Partner";
+import Product from "./Product";
+import { ContactForm } from "./ContactForm";
+import Service from "./Service";
 
 function App() {
   return (

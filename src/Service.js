@@ -15,6 +15,17 @@ import img6 from "../src/images/da-dev2.jpg";
 import img7 from "../src/images/train-mentor-card.png";
 
 function Service() {
+  const videoFrame = () => {
+    <iframe
+      // width="30%"
+      // height="50%"
+      title="`YC Intro`"
+      src="https://www.youtube.com/embed/eHuHLZx5Rio"
+      allowFullScreen
+    ></iframe>;
+
+    return;
+  };
   return (
     <>
       <div className="my-5">
