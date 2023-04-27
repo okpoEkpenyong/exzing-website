@@ -9,7 +9,7 @@ import rider_ride_summary from "../../images/rider_ridesummary.png";
 import xrpl_mint_nft from "../../images/xrpl-mint-nft.png";
 import mint_carbonfp_xrpl from "../../images/mint-carbonfp-xrpl.png";
 
-import Product from "../../Product";
+import Product from "../../_Product";
 
 const App = () => {
   const slides = [

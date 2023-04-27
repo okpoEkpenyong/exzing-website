@@ -1,35 +1,34 @@
 import React from "react";
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "../node_modules/bootstrap/dist/js/bootstrap.bundle";
-import { Switch, Route, Redirect } from "react-router-dom";
-import Home from "./Home";
-import About from "./About";
-
-import { CollapsibleNav } from "./_Navbar";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 import "./App.css";
 import { MessageProvider } from "./context/MessageProvider";
-import Partners from "./Partner";
-import Product from "./Product";
-import { ContactForm } from "./ContactForm";
-import Service from "./Service";
+import { Home } from "./components/Home";
+import CollapsibleNavs from "./components/navbars/collapsible";
+import { Services } from "./components/Service";
+import { Partner } from "./components/Partner";
+import Product from "./components/Product";
+import { ContactForm } from "./components/Contact";
+import { Footer } from "./components/Footer";
 
 function App() {
   return (
     <>
       <MessageProvider>
-        <CollapsibleNav />
-        <div className="navbar-custom-3">
-          <Switch>
-            <Route exact path="/" component={Home} />
-            <Route exact path="/about" component={About} />
-            <Route exact path="/service" component={Service} />
-            <Route exact path="/contact" component={ContactForm} />
-            <Route exact path="/product" component={Product} />
-            <Route exact path="/partners" component={Partners} />
-            <Redirect to="/" />
-          </Switch>
-        </div>
+        <BrowserRouter>
+          <CollapsibleNavs />
+          <Routes>
+            <Route path="/" element={<Home />} />
+            {/* <Route exact path="/about" element={About} /> */}
+            <Route path="/service" element={<Services />} />
+            <Route path="/partners" element={<Partner />} />
+            <Route path="/product" element={<Product />} />
+            <Route path="/contact" element={<ContactForm />} />
+          </Routes>
+          <Footer />
+        </BrowserRouter>
       </MessageProvider>
     </>
   );

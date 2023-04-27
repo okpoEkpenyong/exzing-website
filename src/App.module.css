@@ -1,0 +1,118 @@
+.App {
+  text-align: center;
+}
+
+.appLogo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .appLogo {
+    animation: appLogoSpin 20s  infinite linear;
+  }
+}
+.contactForm {
+  padding: 20%;
+  background-color: #131f38;
+  min-height: 100vh;
+  text-align: calc();
+  background-image: linear-gradient(90deg, #021c2b 0%, #021c2b, #021c2b, #021c2b );
+
+  /* text-justify: kashida; */
+}
+.btnSubmit {
+  margin-left: 0%;
+  /* align-content: flex-end; */
+}
+.contactCard {
+  background-color: #131f38;
+  color: rgb(197, 187, 187);
+}
+.contactFooter {
+  /* background-color: #a0afd1; */
+  color: white;
+  border-color: aliceblue;
+  /* border-top-right-radius: 40%; */
+}
+.footer {
+  background-color: #131f38;
+  min-height: 10vh;
+  color: aliceblue;
+  text-align: center;
+  padding: 10%;
+  background-image: linear-gradient(90deg, #021c2b 0%, #021c2b, #021c2b, #021c2b );
+ 
+}
+.container {
+  background-color: #131f38;
+  min-height: 100vh;
+  flex-direction: row;
+  /* text-align:justify; */
+  /* text-justify: inter-word; */
+  background-image: linear-gradient(90deg, #021c2b 0%, #021c2b, #021c2b, #021c2b );
+ 
+}
+
+.appHeader {
+  background-color: #131f38;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color:#0cb3eb!important;
+  font-family: "Lucida Handwriting", Times, serif;
+  background-image: linear-gradient(90deg, #021c2b 0%, #021c2b, #021c2b, #021c2b );
+ 
+}
+
+.subtitles {
+  padding-top: 20%;
+  color:goldenrod!important;
+  text-align: center;
+  /* margin-left: 12% ; */
+}
+.wego {
+  color:blanchedalmond
+}
+.exzingWords {
+  padding-top: 2%;
+}
+.partnerWords {
+  padding-top: 2%;
+  color:blanchedalmond;
+  margin-left: 15%;
+  margin-right: 15%;
+  text-align: center;
+}
+.exzing {
+  color:goldenrod!important;
+}
+
+.appLink {
+  color: #61dafb;
+}
+
+.btnMoreInfo {
+  margin-top: 1rem !important;
+}
+
+.contactUs {
+  color:goldenrod!important;
+  padding-bottom: 10%;
+}
+
+/* The @keyframes rule specifies the animation code. 
+The animation is created by gradually changing from one set of CSS styles to another. */
+@keyframes appLogoSpin {
+  /* from {
+  
+    transform: translate(12px, 10%);;
+  }
+  to {
+    transform: translate(12px, -10%);;
+  } */
+}
+
