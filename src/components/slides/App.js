@@ -97,10 +97,10 @@ const App = () => {
           width="100%"
           height="90%"
           title="`YC Intro`"
-          src="https://www.youtube.com/embed/eHuHLZx5Rio"
+          src="https://www.youtube.com/embed/ZxuGu63V7WY"
           allowFullScreen
         ></iframe>
-        <div>LushRide Demo (Web2)</div>
+        <div>LushRide and XRPL Integration</div>
       </div>
       <div style={containerStyles}>
         <ImageSlider slides={slides} />
