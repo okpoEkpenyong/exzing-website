@@ -20,7 +20,7 @@ export const Shared = ({ imgsrc, path, visit, btname }) => {
             </strong>
           </h1>
           <h4 className={styles.wego}>
-            We go where everyone else says it's impossible to go.
+            we go where people say it's impossible to go...
           </h4>
           <div>
             <NavLink to={visit} className={styles.btnMoreInfo}>
