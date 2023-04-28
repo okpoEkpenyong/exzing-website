@@ -133,7 +133,7 @@ export const ContactForm = () => {
       <Container fluid className={styles.contactForm}>
         <Row xs={1} md={2} className="g-5">
           <Col>
-            <Card border="light" className={styles.contactCard}>
+            <Card border="light" className={styles.card}>
               <Card.Body>
                 <Card.Title className={styles.contactUs}>Contact Us</Card.Title>
                 <Form noValidate validated={validated} onSubmit={handleSubmit}>
@@ -206,7 +206,7 @@ export const ContactForm = () => {
             </Card>
           </Col>
           <Col>
-            <Card border="light" className={styles.contactCard}>
+            <Card border="light" className={styles.card}>
               {/* <Card.Img variant="top" src="holder.js/100px160" /> */}
               <Card.Body className={styles.contactFooter}>
                 <Card.Link href="#okpo.ekpenyong@exzing.com">

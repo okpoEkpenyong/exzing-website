@@ -12,8 +12,14 @@
     animation: appLogoSpin 20s  infinite linear;
   }
 }
+.imageBg {
+  background-image: linear-gradient(90deg, #021c2b 0%, #021c2b, #021c2b, #021c2b );
+}
 .contactForm {
-  padding: 20%;
+  padding: 40% 5% 0% 5%; /**  top right bottom left  CW dir*/
+  /* padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 25%; */
   background-color: #131f38;
   min-height: 100vh;
   text-align: calc();
@@ -25,9 +31,11 @@
   margin-left: 0%;
   /* align-content: flex-end; */
 }
-.contactCard {
+.card {
   background-color: #131f38;
   color: rgb(197, 187, 187);
+  margin: 3%;
+  justify-content: center;
 }
 .contactFooter {
   /* background-color: #a0afd1; */
@@ -45,9 +53,10 @@
  
 }
 .container {
-  background-color: #131f38;
+  /* background-color: #131f38; */
   min-height: 100vh;
   flex-direction: row;
+  /* color: aliceblue; */
   /* text-align:justify; */
   /* text-justify: inter-word; */
   background-image: linear-gradient(90deg, #021c2b 0%, #021c2b, #021c2b, #021c2b );
@@ -69,10 +78,10 @@
 }
 
 .subtitles {
-  padding-top: 20%;
+  padding-bottom: 5%;
   color:goldenrod!important;
-  text-align: center;
-  /* margin-left: 12% ; */
+  text-align: left;
+  margin-left: 1% ;
 }
 .wego {
   color:blanchedalmond

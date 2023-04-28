@@ -7,19 +7,19 @@ import rider_search_dest from "../../images/rider_searchDest.png";
 import rider_profile from "../../images/rider_profile.png";
 import rider_ride_summary from "../../images/rider_ridesummary.png";
 import mint_carbonfp_xrpl from "../../images/mint-carbonfp-xrpl.png";
-import { Container } from "react-bootstrap";
+import { Card, Container } from "react-bootstrap";
+
+export const slides = [
+  { url: rider_home, title: "Home" },
+  { url: rider_search_dest, title: "Search Destination" },
+  { url: rider_order, title: "Order Ride" },
+  { url: rider_cancelled, title: "Cancel Ride" },
+  { url: rider_profile, title: "Rider Profile" },
+  { url: rider_ride_summary, title: "Ride Summary" },
+  { url: mint_carbonfp_xrpl, title: "XRPL Mint NFT" },
+];
 
 const App = () => {
-  const slides = [
-    { url: rider_home, title: "Home" },
-    { url: rider_search_dest, title: "Search Destination" },
-    { url: rider_order, title: "Order Ride" },
-    { url: rider_cancelled, title: "Cancel Ride" },
-    { url: rider_profile, title: "Rider Profile" },
-    { url: rider_ride_summary, title: "Ride Summary" },
-    { url: mint_carbonfp_xrpl, title: "XRPL Mint NFT" },
-  ];
-
   const containerStyles = {
     width: "50%",
     height: "380px",
@@ -55,6 +55,12 @@ const App = () => {
 
     marginLeft: "5%",
   };
+
+  // return (
+  //   <Card style={{ backgroundColor: "black", color: "white", margin: "7%" }}>
+  //     <Card.Title style={{ margin: "5%" }}>Product Demo</Card.Title>
+  //   </Card>
+  // );
 
   return (
     <div>
