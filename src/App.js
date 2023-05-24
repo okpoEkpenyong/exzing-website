@@ -21,7 +21,6 @@ function App() {
           <CollapsibleNavs />
           <Routes>
             <Route path="/" element={<Home />} />
-            {/* <Route exact path="/about" element={About} /> */}
             <Route path="/service" element={<Services />} />
             <Route path="/partners" element={<Partner />} />
             <Route path="/product" element={<Product />} />

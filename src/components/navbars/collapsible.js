@@ -40,6 +40,12 @@ export default function CollapsibleNavs() {
               </Nav.Link>
             </Nav>
             <Nav>
+              <Nav.Link
+                href="https://github.com/exzing"
+                className="text-vsoft text-nav"
+              >
+                Github
+              </Nav.Link>
               <Nav.Link href="/contact" className="text-vsoft">
                 Contact Us
               </Nav.Link>

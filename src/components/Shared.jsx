@@ -1,8 +1,6 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
-import logo from "../images/backg2.jpg";
 import styles from "../App.module.css";
-import { Container } from "react-bootstrap";
+import { Button, Container } from "react-bootstrap";
 
 export const Shared = ({ imgsrc, path, visit, btname }) => {
   return (
@@ -23,16 +21,16 @@ export const Shared = ({ imgsrc, path, visit, btname }) => {
             we go where people say it's impossible to go...
           </h4>
           <div>
-            <NavLink to={visit} className={styles.btnMoreInfo}>
+            <Button
+              variant="outline-info"
+              // className="btn btn-outline-info"
+              // href={path}
+              href={visit}
+            >
+              {" "}
               {btname}
-            </NavLink>
+            </Button>{" "}
           </div>
-          {/* <div className={styles.btnSubmit}>
-            <button className="btn btn-outline-info" type="button">
-              {btname}
-            </button>
-            <NavLink to={visit} className={styles.btnMoreInfo}></NavLink>
-          </div> */}
         </>
       )}
       {path === "partner" && (

@@ -6,7 +6,7 @@ export const Home = () => {
   return (
     <>
       <Shared
-        name="Feel the gust of "
+        name="Feel the gust of"
         imgsrc={web}
         visit="/service"
         btname="Find out more"

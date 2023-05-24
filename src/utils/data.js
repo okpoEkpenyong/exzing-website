@@ -1,6 +1,7 @@
 import mobile_dev from "../../src/images/mobile-dev.jpg";
 import web_dev from "../../src/images/web-dev.jpg";
 import data_analytics from "../../src/images/da-dev2.jpg";
+import blockchain_dev from "../../src/images/blockchain.png";
 
 export const lushRide_intro = [
   {
@@ -46,6 +47,12 @@ export const services_image = [
     media_id: 2,
     media_name: data_analytics,
     media_title: "Data Analytics",
+    media_desc: "",
+  },
+  {
+    media_id: 3,
+    media_name: blockchain_dev,
+    media_title: "Blockchain Development",
     media_desc: "",
   },
 ];
