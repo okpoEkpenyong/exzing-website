@@ -1,4 +1,4 @@
-import React, { useContext, useEffect, useState } from "react";
+import React, { useContext, useState } from "react";
 import { SocialIcon } from "react-social-icons";
 import Col from "react-bootstrap/Col";
 import Form from "react-bootstrap/Form";
