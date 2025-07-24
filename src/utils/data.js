@@ -38,7 +38,7 @@ export const exzing_energyx_intro = [
     {
       media_id: 1,
       media_src: null,
-      media_title: "Exzing EnergyX",
+      media_title: "We Grow Together",
       media_desc: `We are proudly part of Microsoft for Startups Founders Hub (Now Microsoft for Startups). 
                   We are grateful for the support and resources provided by Microsoft, which have been instrumental in
                   our journey as a startup. The availability
