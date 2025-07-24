@@ -13,9 +13,43 @@ export const lushRide_intro = [
                   driving sessions. We're currently leveraging the XRPL robust chain
                   to create NFT tokens for users' carbon footprints, with the aim of
                   giving them a choice of monetizing or analysing their data for
-                  global climate change mitigation.`,
+                  global climate change mitigation.
+                  ,`
+                  ,
   },
 ];
+
+export const exzing_energyx_intro = [
+    {
+      media_id: 1,
+      media_src: null,
+      media_title: "Exzing EnergyX",
+      media_desc: `Launched in 2025, Exzing EnergyX is a climate tech platform powered by AI, 
+                   Microsoft Azure (including Azure ML), and blockchain technologies like Ocean Protocol and Ethereum.
+                   Based in Nigeria, we’re pioneering carbon intelligence tools in a region where such solutions are still rare.
+                   Our mission is to empower maritime operators and port stakeholders with real-time emissions data, 
+                   intelligent analytics, and actionable insights. At this early stage, we’re equipping users with
+                   baseline tools for understanding and managing their carbon footprint — laying the groundwork for a smarter, more sustainable maritime future.
+                   Learn more at https://energyx.exzing.com`,
+    },
+  ];
+
+  export const partners_intro = [
+    {
+      media_id: 1,
+      media_src: null,
+      media_title: "Exzing EnergyX",
+      media_desc: `We are proudly part of Microsoft for Startups Founders Hub (Now Microsoft for Startups). 
+                  We are grateful for the support and resources provided by Microsoft, which have been instrumental in
+                  our journey as a startup. The availability
+                  of High Performance Computing (HPC) resources and GPUs have been a game-changer
+                  for us, enabling us to develop and deploy our AI models with greater
+                  efficiency and speed. This support has been crucial in our mission to
+                  create innovative solutions that address real-world challenges. 
+                  We welcome more partners as they join us to build impactful solutions for a sustainable future.`,
+    },
+  ];
+  
 export const demo_media = [
   {
     media_id: 0,
@@ -61,17 +95,17 @@ export const variants = {
   variations: [
     {
       variation_id: 1,
-      variation_name: "210kr",
-      price: "210",
-      reward_text: "200kr. Price",
+      variation_name: "8USD",
+      price: "8",
+      reward_text: "8USD. Price",
       reward_description:
-        "Med et gavekort til Sendentanke.dk kan du vælge mellem gavekort til hundredevis af butikker og oplevelser ét sted.",
+        "Great prices offered.",
     },
     {
       variation_id: 2,
-      variation_name: "400kro",
-      price: "400",
-      reward_text: "400 Price",
+      variation_name: "4USD",
+      price: "4",
+      reward_text: "4 Price",
       reward_description: "Earn a reward",
     },
   ],
