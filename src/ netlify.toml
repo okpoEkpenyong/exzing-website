@@ -3,9 +3,6 @@
   publish = "build"
   base = "/"
 
-[build.environment]
-  NODE_VERSION = "20.12.2"
-
 [[redirects]]
   from = "/*"
   to = "/index.html"

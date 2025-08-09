@@ -4,6 +4,7 @@ import styles from "../App.module.css";
 import { Card, Container } from "react-bootstrap";
 import { CustomCard, DescriptionCard } from "./Card";
 import { demo_media, exzing_energyx_intro, lushRide_intro } from "../utils/data";
+import energyx from "../../src/images/dashb.PNG"
 
 export function Product() {
   return (

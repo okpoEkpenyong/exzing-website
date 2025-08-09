@@ -12,6 +12,7 @@ import { Partner } from "./components/Partner";
 import Product from "./components/Product";
 import { ContactForm } from "./components/Contact";
 import { Footer } from "./components/Footer";
+import {About} from "./components/About";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
             <Route path="/partners" element={<Partner />} />
             <Route path="/product" element={<Product />} />
             <Route path="/contact" element={<ContactForm />} />
+            <Route path="/about" element={<About />} />
           </Routes>
           <Footer />
         </BrowserRouter>

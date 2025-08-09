@@ -45,6 +45,14 @@
    /* mslight from "../src/images/ms-light.png"; */
 }
 
+.subtitle {
+  font-size: 1.2rem;
+  margin-top: 0.5rem;
+  color: #0a3d62;
+  font-weight: 500;
+  font-family: 'Poppins', sans-serif;
+}
+
 .nav-logo:hover {
   cursor: pointer;
   /* background-color: green; */

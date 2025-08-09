@@ -36,6 +36,9 @@ export default function CollapsibleNavs() {
               <Nav.Link href="/partners" className="text-vsoft">
                 Partners
               </Nav.Link>
+              <Nav.Link href="/about" className="text-vsoft">
+                About
+              </Nav.Link>
             </Nav>
             <Nav>
               <Nav.Link

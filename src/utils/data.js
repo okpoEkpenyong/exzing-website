@@ -1,7 +1,13 @@
-import mobile_dev from "../../src/images/mobile-dev.jpg";
-import web_dev from "../../src/images/web-dev.jpg";
-import data_analytics from "../../src/images/da-dev2.jpg";
-import blockchain_dev from "../../src/images/blockchain.png";
+// src\utils\data.js
+
+
+import carbon_ai from "../../src/images/carbon_intel_dashb.PNG";
+import seismic_ai from "../../src/images/seismic_ai.PNG";
+import climate_tokens from "../../src/images/blockchain_tokens.PNG";
+import azure_ml from "../../src/images/azure_ml.PNG";
+import energyx from "../../src/images/dashb.PNG"
+import energyx_ship from "../../src/images/exzingx-ship2.png"
+
 
 export const lushRide_intro = [
   {
@@ -23,14 +29,15 @@ export const exzing_energyx_intro = [
     {
       media_id: 1,
       media_src: null,
+      media_img: energyx_ship,
       media_title: "Exzing EnergyX",
       media_desc: `Launched in 2025, Exzing EnergyX is a climate tech platform powered by AI, 
                    Microsoft Azure (including Azure ML), and blockchain technologies like Ocean Protocol and Ethereum.
                    Based in Nigeria, we’re pioneering carbon intelligence tools in a region where such solutions are still rare.
-                   Our mission is to empower maritime operators and port stakeholders with real-time emissions data, 
+                   Our mission is to empower concerned organisations,  maritime operators and port stakeholders with real-time emissions data, 
                    intelligent analytics, and actionable insights. At this early stage, we’re equipping users with
                    baseline tools for understanding and managing their carbon footprint — laying the groundwork for a smarter, more sustainable maritime future.
-                   Learn more at https://energyx.exzing.com`,
+                   Learn more at <a href="https://energyx.exzing.com" target="_blank" rel="noopener noreferrer">energyx.exzing.com</a>.`,
     },
   ];
 
@@ -50,7 +57,8 @@ export const exzing_energyx_intro = [
     },
   ];
   
-export const demo_media = [
+
+  export const demo_media = [
   {
     media_id: 0,
     media_src: "https://www.youtube.com/embed/eHuHLZx5Rio",
@@ -64,49 +72,51 @@ export const demo_media = [
     media_desc: "",
   },
 ];
+
+
 export const services_image = [
   {
     media_id: 0,
-    media_name: mobile_dev,
-    media_title: "Mobile Development",
-    media_desc: "",
+    media_name: carbon_ai,
+    media_title: "Carbon Intelligence & CCUS Tools",
+    media_desc:
+      `We develop real-time carbon monitoring tools powered by AI to help organisations and maritime operators track/reduce their emissions footprint.
+      Our long term goal also include carbon capture and sequestration`,
   },
+  // {
+  //   media_id: 1,
+  //   media_name: seismic_ai,
+  //   media_title: "Seismic AI for Subsurface Insights",
+  //   media_desc:
+  //     "Leveraging deep learning models like UNet and ElasticViTMAE to enhance geophysical simulations and reservoir predictions.",
+  // },
   {
     media_id: 1,
-    media_name: web_dev,
-    media_title: "Web Development",
-    media_desc: "",
+    media_name: azure_ml,
+    media_title: "Azure ML-Powered Solutions",
+    media_desc:
+      "Through Microsoft for Startups, we deploy scalable AI pipelines using Azure ML, HPC, and cloud-native tooling to build sustainable systems.",
   },
   {
     media_id: 2,
-    media_name: data_analytics,
-    media_title: "Data Analytics",
-    media_desc: "",
+    media_name: climate_tokens,
+    media_title: "Blockchain & CO₂ Tokens",
+    media_desc:
+      "We use XRPL to tokenize carbon data, enabling users to monetize or trace their environmental impact via NFTs and decentralized tools.",
   },
+  // {
+  //   media_id: 3,
+  //   media_name: azure_ml,
+  //   media_title: "Azure ML-Powered Solutions",
+  //   media_desc:
+  //     "Through Microsoft for Startups, we deploy scalable AI pipelines using Azure ML, HPC, and cloud-native tooling to build sustainable systems.",
+  // },
   {
     media_id: 3,
-    media_name: blockchain_dev,
-    media_title: "Blockchain Development",
-    media_desc: "",
+    media_name: seismic_ai,
+    media_title: "Seismic AI for Subsurface Insights",
+    media_desc:
+      "Leveraging deep learning models like UNet and ElasticViTMAE to enhance geophysical simulations and reservoir predictions.",
   },
 ];
 
-export const variants = {
-  variations: [
-    {
-      variation_id: 1,
-      variation_name: "8USD",
-      price: "8",
-      reward_text: "8USD. Price",
-      reward_description:
-        "Great prices offered.",
-    },
-    {
-      variation_id: 2,
-      variation_name: "4USD",
-      price: "4",
-      reward_text: "4 Price",
-      reward_description: "Earn a reward",
-    },
-  ],
-};
