@@ -3,7 +3,7 @@ import React from "react";
 import styles from "../App.module.css";
 import { Card, Container } from "react-bootstrap";
 import { CustomCard, DescriptionCard } from "./Card";
-import { demo_media, exzing_energyx_intro, lushRide_intro } from "../utils/data";
+import { demo_media, exzing_energyx_intro, lushRide_intro, exzing_reservoir_agent_intro } from "../utils/data";
 import energyx from "../../src/images/dashb.PNG"
 
 export function Product() {
@@ -14,6 +14,7 @@ export function Product() {
         <DescriptionCard desc={true} arr={lushRide_intro} />
         <CustomCard arr={demo_media} media={"video"} desc={false} />
         <DescriptionCard desc={true} arr={exzing_energyx_intro} />;
+		<DescriptionCard desc={true} arr={exzing_reservoir_agent_intro} />;
       </Card>
     </Container>
   );

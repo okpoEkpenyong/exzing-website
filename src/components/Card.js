@@ -45,29 +45,6 @@ export function CustomCard({ arr, media, desc, slider }) {
   );
 }
 
-// export function DescriptionCard({ desc, arr }) {
-//   return (
-//     <Row xs={1} md={1}>
-//       {Array.from(arr).map((value, idx) => {
-//         return (
-//           <Col key={value?.media_id}>
-//             <Card border="warning" className={styles.card}>
-//               <Card.Body>
-//                 <Card.Title>{value?.media_title}</Card.Title>
-//               </Card.Body>
-//               {desc && (
-//                 <Card.Body>
-//                   <Card.Text dangerouslySetInnerHTML={{ __html: value?.media_desc }} />
-
-//                 </Card.Body>
-//               )}
-//             </Card>
-//           </Col>
-//         );
-//       })}
-//     </Row>
-//   );
-// }
 
 
 export function DescriptionCard({ desc, arr }) {
