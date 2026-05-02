@@ -46,7 +46,7 @@ export const exzing_reservoir_agent_intro = [
   {
     media_id: 1,
     media_src: null,
-    media_img: reservoir_agent_img,
+    media_img: null,
     media_title: "Reservoir Management Agent",
     media_desc: `Launched in 2026 and available on the <b>Microsoft Commercial Marketplace</b>, 
                  Exzing Reservoir Management Agent is an enterprise-grade AI orchestration platform 
