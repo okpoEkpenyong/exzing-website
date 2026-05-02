@@ -48,7 +48,7 @@ export const exzing_reservoir_agent_intro = [
     media_src: null,
     media_img: null,
     media_title: "Reservoir Management Agent",
-    media_desc: `Launched in 2026 and available on the <b><a href="https://marketplace.microsoft.com/" target="_blank" rel="noopener noreferrer">Microsoft Commercial Marketplace</a></b>, 
+    media_desc: `Launched in 2026 and available on the <b>Microsoft Commercial Marketplace</b>, 
                  Exzing Reservoir Management Agent is an enterprise-grade AI orchestration platform 
                  built for subsurface engineering. It automates the complex lifecycle of reservoir 
                  simulations (E), leveraging Azure OpenAI to debug keywords and ACI for 
