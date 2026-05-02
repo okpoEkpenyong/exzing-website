@@ -37,7 +37,7 @@ export const exzing_energyx_intro = [
                    Our mission is to empower concerned organisations,  maritime operators and port stakeholders with real-time emissions data, 
                    intelligent analytics, and actionable insights. At this early stage, we’re equipping users with
                    baseline tools for understanding and managing their carbon footprint — laying the groundwork for a smarter, more sustainable maritime future.
-                   Learn more at <a href="https://energyx.exzing.com" target="_blank" rel="noopener noreferrer">energyx.exzing.com</a>.`,
+                   Learn more at <a href="https://energyx.exzing.com" target="_blank" rel="noopener noreferrer">Exzing EnergyX</a>.`,
     },
   ];
   
@@ -48,13 +48,13 @@ export const exzing_reservoir_agent_intro = [
     media_src: null,
     media_img: null,
     media_title: "Reservoir Management Agent",
-    media_desc: `Launched in 2026 and available on the <b>Microsoft Commercial Marketplace</b>, 
+    media_desc: `Launched in 2026 and available on the <b><a href="https://marketplace.microsoft.com/" target="_blank" rel="noopener noreferrer">Microsoft Commercial Marketplace</a></b>, 
                  Exzing Reservoir Management Agent is an enterprise-grade AI orchestration platform 
                  built for subsurface engineering. It automates the complex lifecycle of reservoir 
                  simulations (E), leveraging Azure OpenAI to debug keywords and ACI for 
                  scalable execution. By reducing simulation cycle times by up to 90%, we empower 
                  upstream operators to make faster, data-driven production decisions. 
-                 Explore the solution on the <a href="https://marketplace.microsoft.com/en-us/product/saas/okpo-exzing-research.exzing-reservoir-agent?tab=Overview" target="_blank" rel="noopener noreferrer">Azure Marketplace</a>.`,
+                 Explore the solution on the <a href="https://marketplace.microsoft.com/en-us/product/saas/okpo-exzing-research.exzing-reservoir-agent?tab=Overview" target="_blank" rel="noopener noreferrer">Exzing Reservoir Agent</a>.`,
   },
 ];
   
